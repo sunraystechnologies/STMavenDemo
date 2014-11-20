@@ -18,6 +18,14 @@ public class BidPOJO {
 	String timestamp;
 	int itemId;
 
+	public int getItemId() {
+		return itemId;
+	}
+
+	public void setItemId(int itemId) {
+		this.itemId = itemId;
+	}
+
 	public int getAmount() {
 		return amount;
 	}

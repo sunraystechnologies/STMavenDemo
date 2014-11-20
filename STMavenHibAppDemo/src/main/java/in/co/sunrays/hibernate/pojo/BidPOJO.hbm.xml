@@ -9,8 +9,10 @@
 		<id name="id" type="java.lang.Long" column="ID" length="20">
 			<generator class="increment"></generator>
 		</id>
-		<property name="amount" column="AMOUNT" />
-		<property name="timestamp" column="TIMESTAMP" />
+		<property name="amount" type="java.lang.Integer" column="AMOUNT"
+			length="20" />
+		<property name="timestamp" type="java.lang.String" column="TIMESTAMP"
+			length="20" />
 	</class>
 
 </hibernate-mapping>

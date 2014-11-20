@@ -7,19 +7,19 @@
 		<id name="id" type="java.lang.Long" column="ID" length="20">
 			<generator class="increment"></generator>
 		</id>
-		<property name="companyName" type="java.lang.String" column="CompanyName"
+		<property name="companyName" type="java.lang.String" column="COMPANY_NAME"
 			length="100">
 		</property>
-		<property name="firstName" type="java.lang.String" column="FirstName"
+		<property name="firstName" type="java.lang.String" column="FIRST_NAME"
 			length="100">
 		</property>
-		<property name="lastName" type="java.lang.String" column="LastName"
+		<property name="lastName" type="java.lang.String" column="LAST_NAME"
 			length="255">
 		</property>
-		<property name="address" type="java.lang.String" column="Address"
+		<property name="address" type="java.lang.String" column="ADDRESS"
 			length="20">
 		</property>
-		<property name="contactNo" type="java.lang.Long" column="ContactNo"
+		<property name="contactNo" type="java.lang.Long" column="CONTACT_NO"
 			length="50">
 		</property>
 	</class>

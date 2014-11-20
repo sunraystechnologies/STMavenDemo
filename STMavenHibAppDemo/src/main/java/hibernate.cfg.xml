@@ -28,10 +28,10 @@
 
 
 		<mapping resource="in/co/sunrays/hibernate/pojo/CustomerPOJO.hbm.xml" />
-<mapping resource="in/co/sunrays/hibernate/pojo/AddressPOJO.hbm.xml" />
-<mapping resource="in/co/sunrays/hibernate/pojo/AuctionItemPOJO.hbm.xml" />
-<mapping resource="in/co/sunrays/hibernate/pojo/BidPOJO.hbm.xml" />
-<mapping resource="in/co/sunrays/hibernate/pojo/EmployeePOJO.hbm.xml" />
+		<mapping resource="in/co/sunrays/hibernate/pojo/AddressPOJO.hbm.xml" />
+		<mapping resource="in/co/sunrays/hibernate/pojo/AuctionItemPOJO.hbm.xml" />
+		<mapping resource="in/co/sunrays/hibernate/pojo/BidPOJO.hbm.xml" />
+		<mapping resource="in/co/sunrays/hibernate/pojo/EmployeePOJO.hbm.xml" />
 
 
 	</session-factory>

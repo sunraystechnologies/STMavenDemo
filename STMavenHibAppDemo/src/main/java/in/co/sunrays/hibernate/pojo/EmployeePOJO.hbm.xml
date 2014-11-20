@@ -5,11 +5,13 @@
 
 <hibernate-mapping package="in.co.sunrays.hibernate.pojo">
 	<class name="EmployeePOJO" table="Employee">
-	<id name="id" type="java.lang.Long" column="ID" length="20">
+		<id name="id" type="java.lang.Long" column="ID" length="20">
 			<generator class="increment"></generator>
 		</id>
-		<property name="firstName" type="string" column="first_name" />
-		<property name="lastName" type="string" column="last_name" />
+		<property name="firstName" type="java.lang.String" column="FIRST_NAME"
+			length="20" />
+		<property name="lastName" type="java.lang.String" column="LAST_NAME"
+			length="20" />
 		<one-to-one name="address" cascade="all" class="AddressPOJO" />
 	</class>
 

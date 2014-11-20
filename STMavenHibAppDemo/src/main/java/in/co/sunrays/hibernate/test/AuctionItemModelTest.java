@@ -59,6 +59,7 @@ public class AuctionItemModelTest {
 		pojo.setDescription("test");
 		bidPOJO.setAmount(200);
 		bidPOJO.setTimestamp("11:30");
+		bidPOJO.setItemId(1);
 
 		pojo.setSuccessfulBid(bidPOJO);
 		long pk = model.add(pojo);
@@ -67,7 +68,7 @@ public class AuctionItemModelTest {
 		assertNotNull("Error : AuctionItem Add Fail", pojo);
 	}
 
-	@Ignore
+	@Test
 	public void testUpdate() throws Exception {
 
 		AuctionItemPOJO pojo = model.findByPK(1l);
@@ -81,7 +82,7 @@ public class AuctionItemModelTest {
 
 	}
 
-	@Ignore
+	@Test
 	public void testDelete() throws Exception {
 		AuctionItemPOJO pojo = new AuctionItemPOJO();
 		pojo.setId(2l);
@@ -94,7 +95,7 @@ public class AuctionItemModelTest {
 		System.out.println("Success : AuctionItem Delete Success");
 	}
 
-	@Ignore
+	@Test
 	public void testFindByPK() throws Exception {
 
 		AuctionItemPOJO pojo = model.findByPK(1l);
@@ -110,7 +111,7 @@ public class AuctionItemModelTest {
 
 	}
 
-	@Ignore
+	@Test
 	public void testSearchAuctionItemPOJO() throws Exception {
 
 		AuctionItemPOJO pojo = new AuctionItemPOJO();
